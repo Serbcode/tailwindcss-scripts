@@ -1,0 +1,22 @@
+{
+  "name": "tailwindpro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "postcss.config.js",
+  "dependencies": {
+    "autoprefixer": "^10.2.5",
+    "postcss-cli": "^8.3.1",
+    "tailwindcss": "^2.1.2"
+  },
+  "devDependencies": {
+    "crossenv": "0.0.2-security",
+    "cssnano": "^5.0.1"
+  },
+  "scripts": {
+    "build": "postcss css/tailwind.css -o build/tailwind.css",
+    "publish": "cross-env NODE_ENV=production postcss css/tailwind.css -o publish/tailwind.css NODE_ENV=production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
