@@ -5,3 +5,10 @@
 .link {
     @apply text-blue cursor-pointer
 }
+
+.tableinfo {
+    @apply table-auto border-collapse border border-blue flex-auto mr-2
+}
+.tableinfo td {
+    @apply border border-blue px-2
+}
